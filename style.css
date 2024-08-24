@@ -457,15 +457,20 @@ footer .optional-links a:hover {
   margin-bottom: 20px;
 }
 
+#submitbtn{
+  width: 25%;
+}
+
 @media (max-width: 768px){
   .navbar ul{
     display: none;
   }
   .headmain .mainhead h3{
-    font-size: 42px;
+    font-size: 38px;
+    padding: 0px 18px;
   }
   .headmain .subhead p{
-    font-size: 14px;
+    font-size: 15px;
   }
   .headmain .subfoot p{
     font-size: 15px;
@@ -528,9 +533,9 @@ footer .optional-links a:hover {
   .content4 .heading4 p{
     font-size: 14px;
   }
-  .content4 .submit button{
+  /* .content4 .submit button{
     width: 50%;
-  }
+  } */
   .branding img{
     height: 90px;
   }
@@ -539,5 +544,11 @@ footer .optional-links a:hover {
   }
   .social-links{
     display: none;
+  }
+  .headmain{
+    width: 100%;
+  }
+  #submitbtn{
+    width: 35%;
   }
 }
