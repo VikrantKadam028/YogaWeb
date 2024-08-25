@@ -1,15 +1,3 @@
-document.getElementById('whatsappBtn').addEventListener('click', function() {
-
-    const phoneNumber = "+917045815427"; 
-    const message = "Hello, I would like to know more about your services."; 
-
-    const encodedMessage = encodeURIComponent(message);
-    
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-    
-    window.location.href = whatsappUrl;
-});
-
 function sendEmail(event) {
     event.preventDefault();
   
