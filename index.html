@@ -246,6 +246,20 @@
 
 
 <script src="script.js"></script>
+<script>
+    document.getElementById('whatsappBtn').addEventListener('click', function() {
+
+    const phoneNumber = "+917045815427"; 
+    const message = "Hello, I would like to know more about your services."; 
+
+    const encodedMessage = encodeURIComponent(message);
+    
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+    
+    window.location.href = whatsappUrl;
+});
+    
+</script>
 <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 <script type="text/javascript">
     (function () {
