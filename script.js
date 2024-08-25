@@ -1,6 +1,6 @@
 document.getElementById('whatsappBtn').addEventListener('click', function() {
 
-    const phoneNumber = "9699643248"; 
+    const phoneNumber = "+917045815427"; 
     const message = "Hello, I would like to know more about your services."; 
 
     const encodedMessage = encodeURIComponent(message);
