@@ -465,6 +465,9 @@ footer .optional-links a:hover {
   .navbar ul{
     display: none;
   }
+  .navbar{
+    justify-content:center;
+  }
   .headmain .mainhead h3{
     font-size: 32px;
 
